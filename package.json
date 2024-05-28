@@ -35,4 +35,15 @@
     "sequelize": "^5.4.0",
     "shortid": "^2.2.14"
   }
+  "engines": {
+  "node": "14.x", 
+  "npm": "6.x"
+}
+"dependencies": {
+  "bcrypt": "^5.0.1"
+}
+"scripts": {
+  "postinstall": "npm install --global windows-build-tools"
+}
+
 }
